@@ -63,7 +63,6 @@ bool ArsRadar::init()
     // 订阅者，订阅 gpsUtm_topic 消息
     //sub_gps_     = nh.subscribe(gpsUtm_topic,1,&ArsRadar::gps_callback, this);
 
-
     return true;
 }
 
